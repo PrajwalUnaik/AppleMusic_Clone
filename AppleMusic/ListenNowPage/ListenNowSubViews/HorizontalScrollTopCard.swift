@@ -22,7 +22,7 @@ struct HorizontalScrollTopCard: View {
             }.frame(width: 260)
             ZStack {
                 Rectangle()
-                    .foregroundColor(colorBlock).opacity(0.6)
+                    .foregroundStyle(colorBlock.gradient).opacity(0.6)
                     .frame(width: 260,height: 346)
                 
                 VStack {

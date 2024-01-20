@@ -44,7 +44,7 @@ struct Block1: View {
                             RoundedRectangle(cornerRadius: 10)
                                 .frame(width: 350 , height: 72)
                                 .offset(y: 95)
-                                .foregroundColor(.gray)
+                                .foregroundStyle(Color.gray.gradient)
                                 .opacity(0.9)
                             VStack {
                                 HStack {
@@ -95,7 +95,7 @@ struct Block1: View {
                             RoundedRectangle(cornerRadius: 10)
                                 .frame(width: 350 , height: 72)
                                 .offset(y: 95)
-                                .foregroundColor(.pink)
+                                .foregroundStyle(Color.pink)
                                 .opacity(0.9)
                             VStack {
                                 HStack {
@@ -146,7 +146,7 @@ struct Block1: View {
                             RoundedRectangle(cornerRadius: 10)
                                 .frame(width: 350 , height: 72)
                                 .offset(y: 95)
-                                .foregroundColor(.blue)
+                                .foregroundStyle(Color.blue.gradient)
                                 .opacity(0.9)
                             VStack {
                                 HStack {
@@ -173,7 +173,6 @@ struct Block1: View {
                     }
                     .frame(width: 350 , height: 350)
                 }
-                
                 
             }
         }
