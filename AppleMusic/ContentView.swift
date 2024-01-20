@@ -36,7 +36,7 @@ struct ContentView: View {
                     }
                     .tag(2) // Tag for Radio
 
-                Text("Library")
+                LibraryView()
                     .tabItem {
                         Image(systemName: "play.square.stack.fill")
                         Text("Library")
