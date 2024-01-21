@@ -43,7 +43,7 @@ struct ContentView: View {
                     }
                     .tag(3) // Tag for Library
 
-                Text("Search")
+                SearchView()
                     .tabItem {
                         Image(systemName: "magnifyingglass")
                         Text("Search")
@@ -51,7 +51,6 @@ struct ContentView: View {
                     .tag(4) // Tag for Search
             }
             .accentColor(.red)
-
             
             MiniPlayer(animation: animation, expand: $expand)
         })
